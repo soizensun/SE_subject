@@ -7,16 +7,15 @@ public class CashRegisterMain {
     public static void main(String[] args) {
 
         // in usually we decare object in this main but spring can help
-        ApplicationContext context =new ClassPathXmlApplicationContext("config.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
 
 
         CashRegister register = context.getBean("register", CashRegister.class);
+
+
         register.recordPurchase(100);
         System.out.println(register.getTotal());
     }
 
 }
 
-// rebase
-//
-// merge fast forword
