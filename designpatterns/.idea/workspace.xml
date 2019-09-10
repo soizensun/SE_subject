@@ -2,28 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25ef3a72-c2db-468c-a2bf-378e3ffafcbb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../atmdi/src/main/java/atm/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfig/ATM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../atmdi/src/main/java/atm/ATMSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfig/ATMSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../atmdi/src/main/java/atm/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfig/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../atmdi/src/main/java/atm/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfig/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../atmdi/src/main/java/atm/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfig/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../atmdi/src/main/java/atm/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfig/DataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../atmdi/src/main/java/atm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfig/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atmdi/customers.db" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/customers.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atmdi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atmdi/src/main/java/atmDiJavaConfig/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/src/main/java/atmDiJavaConfig/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfig/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfigWithDB/ATM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfig/ATMSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfigWithDB/ATMSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfig/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfigWithDB/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfig/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfigWithDB/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfig/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfigWithDB/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfig/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfigWithDB/ReadFromFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfig/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfigWithDB/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../atmdi/src/main/resources/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/src/main/resources/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springToturialCashRegister/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springToturialCashRegister/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springToturialCashRegister/springToturialCashRegister.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../springToturialCashRegister/CashRegisterDependencyInjection.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springToturialCashRegister/src/main/java/register/CATaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springToturialCashRegister/src/main/java/cashRegisterNormalConfig/CATaxCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springToturialCashRegister/src/main/java/register/CashRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springToturialCashRegister/src/main/java/cashRegisterNormalConfig/CashRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springToturialCashRegister/src/main/java/register/CashRegisterMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springToturialCashRegister/src/main/java/cashRegisterNormalConfig/CashRegisterMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springToturialCashRegister/src/main/java/register/NYTaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springToturialCashRegister/src/main/java/cashRegisterNormalConfig/NYTaxCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springToturialCashRegister/src/main/java/register/TaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springToturialCashRegister/src/main/java/cashRegisterNormalConfig/TaxCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springToturialCashRegister/src/main/resources/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springToturialCashRegister/src/main/resources/normalConfigCR.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springToturialCashRegister/target/classes/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springToturialCashRegister/target/classes/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springToturialCashRegister/target/classes/register/CATaxCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springToturialCashRegister/target/classes/register/CashRegister.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springToturialCashRegister/target/classes/register/CashRegisterMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springToturialCashRegister/target/classes/register/NYTaxCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springToturialCashRegister/target/classes/register/TaxCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -346,15 +336,16 @@
       <option name="presentableId" value="Default" />
       <updated>1568005296273</updated>
       <workItem from="1568005301471" duration="3530000" />
-      <workItem from="1568095903694" duration="756000" />
+      <workItem from="1568095903694" duration="1206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4286000" />
+    <option name="totallyTimeSpent" value="4736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1483" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25298664" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -429,7 +420,7 @@
         <state relative-caret-position="69">
           <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
           <folding>
-            <element signature="e#95#96#0" expanded="true" />
+            <element signature="e#110#111#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -471,12 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans
-        http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean id="DataSource" class="atmNormalConfigWithDB.ReadFromFile">
+    <bean id="ReadFromDatabase" class="atmNormalConfigWithDB.ReadFromDatabase">
+    </bean>
+    <bean id="ReadFromFile" class="atmNormalConfigWithDB.ReadFromFile">
         <constructor-arg value="customers.txt"/>
     </bean>
     <bean id="Bank" class="atmNormalConfigWithDB.Bank">
-        <constructor-arg ref="DataSource"/>
+        <constructor-arg ref="ReadFromDatabase"/>
     </bean>
     <bean id="ATM" class="atmNormalConfigWithDB.ATM">
         <constructor-arg ref="Bank"/>
@@ -18,9 +18,5 @@
     <bean id="ATMSimulator" class="atmNormalConfigWithDB.ATMSimulator">
         <constructor-arg ref="ATM"/>
     </bean>
-
-
-
-
 
 </beans>

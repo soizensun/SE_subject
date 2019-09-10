@@ -1,14 +1,15 @@
-package atmDiJavaConfig;
+package atmDINormalConfig;
 
+import atmNormalConfigWithDB.ATMSimulator;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Main {
     public static void main(String[] args) {
-        ApplicationContext context = new AnnotationConfigApplicationContext(JavaConfig.class);
+        ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
 
-        ATMSimulator atmSimulator = context.getBean(ATMSimulator.class);
+        ATMSimulator atmSimulator = context.getBean("ATMSimulator", ATMSimulator.class);
 
         atmSimulator.run();
 

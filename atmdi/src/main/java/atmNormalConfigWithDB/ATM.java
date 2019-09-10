@@ -1,4 +1,4 @@
-package atmNormalConfig;
+package atmNormalConfigWithDB;
 
 import java.io.IOException;
 

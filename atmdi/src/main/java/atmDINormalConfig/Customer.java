@@ -1,4 +1,4 @@
-package atmNormalConfig;
+package atmDINormalConfig;
 
 /**
  * A bank customer with a checking and a savings account.
