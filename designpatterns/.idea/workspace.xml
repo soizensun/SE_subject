@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25ef3a72-c2db-468c-a2bf-378e3ffafcbb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../atmdi/customers.db" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/customers.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../atmdi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../atmdi/src/main/java/atmDiJavaConfig/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/src/main/java/atmDiJavaConfig/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfig/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfigWithDB/ATM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfig/ATMSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfigWithDB/ATMSimulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfig/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfigWithDB/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfig/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfigWithDB/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfig/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfigWithDB/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfig/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfigWithDB/ReadFromFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfig/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfigWithDB/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../atmdi/src/main/resources/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/src/main/resources/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfigWithDB/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../atmdi/src/main/java/atmNormalConfigWithDB/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/simulator/DuckSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simulator/DuckSimulator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,10 +18,11 @@
     <session id="-1049588704">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -79,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/simulator/DuckSimulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="444">
+              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,7 +95,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Goose/GoodAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
@@ -173,8 +165,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Goose/Goose.java" />
         <option value="$PROJECT_DIR$/src/main/java/Goose/GoodAdapter.java" />
         <option value="$PROJECT_DIR$/src/main/java/pigeon/Pigeon.java" />
-        <option value="$PROJECT_DIR$/src/main/java/simulator/DuckSimulator.java" />
         <option value="$PROJECT_DIR$/src/main/java/pigeon/PigeonAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/simulator/DuckSimulator.java" />
       </list>
     </option>
   </component>
@@ -198,6 +190,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -275,13 +268,12 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568008868468" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568101991309" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -336,18 +328,19 @@
       <option name="presentableId" value="Default" />
       <updated>1568005296273</updated>
       <workItem from="1568005301471" duration="3530000" />
-      <workItem from="1568095903694" duration="1206000" />
+      <workItem from="1568095903694" duration="1600000" />
+      <workItem from="1568126391238" duration="573000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4736000" />
+    <option name="totallyTimeSpent" value="5703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1483" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25298664" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25650036" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -405,16 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/simulator/DuckSimulator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Goose/Goose.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -422,6 +405,13 @@
           <folding>
             <element signature="e#110#111#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Goose/GoodAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -458,10 +448,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Goose/GoodAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/simulator/DuckSimulator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="444">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

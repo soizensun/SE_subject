@@ -1,4 +1,4 @@
-package atmNormalConfig;
+package atmNormalConfigWithDB;
 
 /**
  * A bank account has a balance that can be changed by

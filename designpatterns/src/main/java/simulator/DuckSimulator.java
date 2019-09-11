@@ -26,7 +26,6 @@ public class DuckSimulator {
         simulate(redheadDuck);
         simulate(gooseAdater);
         simulate(pigeonAdapter);
-
     }
 
     private void simulate(Quackable duck) {

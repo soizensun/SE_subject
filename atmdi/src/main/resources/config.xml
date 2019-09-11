@@ -6,16 +6,16 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean id="DataSource" class="atmNormalConfigWithDB.ReadFromFile">
+    <bean id="DataSource" class="atmDINormalConfig.DataSource">
         <constructor-arg value="customers.txt"/>
     </bean>
-    <bean id="Bank" class="atmNormalConfigWithDB.Bank">
+    <bean id="Bank" class="atmDINormalConfig.Bank">
         <constructor-arg ref="DataSource"/>
     </bean>
-    <bean id="ATM" class="atmNormalConfigWithDB.ATM">
+    <bean id="ATM" class="atmDINormalConfig.ATM">
         <constructor-arg ref="Bank"/>
     </bean>
-    <bean id="ATMSimulator" class="atmNormalConfigWithDB.ATMSimulator">
+    <bean id="ATMSimulator" class="atmDINormalConfig.ATMSimulator">
         <constructor-arg ref="ATM"/>
     </bean>
 
