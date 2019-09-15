@@ -1,6 +1,6 @@
 package ducks;
 
-import quack.Quackable;
+import util.Quackable;
 
 public class RedheadDuck implements Quackable {
 

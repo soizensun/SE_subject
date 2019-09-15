@@ -1,6 +1,6 @@
 package pigeon;
 
-import quack.Quackable;
+import util.Quackable;
 
 public class PigeonAdapter implements Quackable {
     private Pigeon pigeon;

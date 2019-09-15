@@ -1,6 +1,6 @@
 package Goose;
 
-import quack.Quackable;
+import util.Quackable;
 
 public class GoodAdapter implements Quackable {
     private Goose goose;
